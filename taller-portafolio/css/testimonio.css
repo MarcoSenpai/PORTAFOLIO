@@ -1,0 +1,34 @@
+
+.testimonio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    border-radius: 24px;
+    
+}
+
+.testimonio h1{
+    font: bold var(--mensaje)
+    
+}
+
+.testimonio p{
+    font: var(--fontBase);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 39px;
+    text-align: center;
+    color: #310A90;
+    opacity: 0.5;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
